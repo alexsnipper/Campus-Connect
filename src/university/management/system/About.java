@@ -17,12 +17,12 @@ public class About extends JFrame {
         image.setBounds(350, 0, 300, 200);
         add(image);
         
-        JLabel heading = new JLabel("<html>University<br/>Management System</html>");
+        JLabel heading = new JLabel("<html>Campus<br/>Connect</html>");
         heading.setBounds(70, 20, 300, 130);
         heading.setFont(new Font("Tahoma", Font.BOLD, 30));
         add(heading);
         
-        JLabel name = new JLabel("Developed By: Code for Interview");
+        JLabel name = new JLabel("Developed By: Akshay Gund");
         name.setBounds(70, 220, 550, 40);
         name.setFont(new Font("Tahoma", Font.BOLD, 30));
         add(name);
@@ -32,7 +32,7 @@ public class About extends JFrame {
         rollno.setFont(new Font("Tahoma", Font.PLAIN, 30));
         add(rollno);
         
-        JLabel contact = new JLabel("Contact: codeforinterview03@gmail.com");
+        JLabel contact = new JLabel("Contact: demo@gmail.com");
         contact.setBounds(70, 340, 550, 40);
         contact.setFont(new Font("Tahoma", Font.PLAIN, 20));
         add(contact);
